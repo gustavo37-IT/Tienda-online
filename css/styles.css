@@ -1,0 +1,47 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* ===== CARRUSEL ===== */
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
+}
+
+/* ===== CARDS ===== */
+.card {
+  transition: transform 0.2s ease;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 60px;
+}
+
+footer a:hover {
+  color: #adb5bd !important;
+  text-decoration: none;
+}
+
+/* ===== FORMULARIO ===== */
+.btn-dark:hover {
+  background-color: #333;
+}
